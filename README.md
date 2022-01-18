@@ -5,6 +5,6 @@ This is a training and testing framework of neural network.
 
 **Model Code:** You can add your own model code as the example shown in `./model.py`
 
-**Config Code:** All the dataset, model, loss and evaluation metric are be config by config file. You can modify them as the examples shown in `./configs`
+**Config Code:** All the dataset, model, loss and evaluation metric are configured by configuration files in `./configs`. You can modify them as the examples shown in `./configs`
 
-**Run Command:** The training command is shown in `./run.sh`. If you want to evaluate, you can add `--evaluate` in the command.
+**Run Command:** The training command is shown in `./run.sh`. If you want to evaluate your model, you can add `--evaluate` in the command which will turn the `train.py` to evaluation mode.
