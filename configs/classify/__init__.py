@@ -29,7 +29,7 @@ configs.train.valid_interval = 1
 configs.train.scheduler = Config(optim.lr_scheduler.CosineAnnealingLR)
 configs.train.scheduler.T_max = configs.train.num_epochs
 
-configs.train.criterion = Config(nn.CrossEntropyLoss)
+configs.train.criterion = Config(YourLossClass) #such as Config(nn.CrossEntropyLoss)
 configs.train.meters = Config()
 configs.train.meters['train-acc_{}'] = Config(MeterClassify)
 
